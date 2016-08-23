@@ -1,0 +1,309 @@
+.maincontent{
+				/*box-shadow: 0px 0px 2px 1px #ddd;*/
+				padding-top: 1px;
+				padding-bottom: 17px;
+			}
+			
+			.showcnt{
+				display:block;
+			}
+			.title{
+				box-shadow: inset 0px 0px 8px #ddd;
+			}
+			.description{
+				box-shadow: inset 0px 0px 8px #ddd;
+			}
+			.date{
+				box-shadow: inset 0px 0px 8px #ddd;
+			}
+			.formcontent{
+				padding:28px 0px;
+			}
+			.submitbtn{
+				padding: 8px 28px 10px 25px;
+			}
+			.contenttabs{
+				background: darkcyan;
+				border-radius: 0px;
+			}
+			.contenttabs li,a{
+				color:#fff;
+			}
+			.contenttabs,.nav-tabs>li>a{
+				border-radius:0px;
+			}
+			.contenttodo{
+				box-shadow:0px 0px 8px 1px #ddd;
+				
+			}
+			.todocontent{
+				padding: 0px 14px 10px 32px;
+
+			}
+			.sidecontent{
+				background: #00e6e6;
+				padding:21px;
+				border-bottom:1px solid #000;
+			}
+			.thumb{
+				width: 3em;
+				height: 3em;
+				margin: 10px 0px;
+			}
+			.careticon{
+				position: absolute;
+				top: 45%;
+				left: 52%;
+			}
+			.animated.rollIn {
+				-webkit-animation-name: rollIn;
+				-moz-animation-name: rollIn;
+				-o-animation-name: rollIn;
+				animation-name: rollIn;
+			}
+			.animated {
+				-webkit-animation-duration: 0.90s;
+				-moz-animation-duration: 0.90s;
+				-o-animation-duration: 0.90s;
+				animation-duration: 0.90s;
+				-webkit-animation-fill-mode: both;
+				-moz-animation-fill-mode: both;
+				-o-animation-fill-mode: both;
+				animation-fill-mode: both;
+			}
+			.animated.fadeInLeft {
+				-webkit-animation-name: fadeInLeft;
+				-moz-animation-name: fadeInLeft;
+				-o-animation-name: fadeInLeft;
+				animation-name: fadeInLeft;
+			}
+			.m-t-sm {
+				margin-top: 0px;
+			}
+			.nav-msg {
+				position: absolute;
+				z-index: 1000;
+				top: 10px;
+				left:191px;
+				padding: 5px;
+			}
+			.nav-msg .dropdown-menu {
+				top: -13px;
+				margin-left: 33px;
+				width: 300px;
+			}
+			.animated.fadeInRight {
+				-webkit-animation-name: fadeInRight;
+				-moz-animation-name: fadeInRight;
+				-o-animation-name: fadeInRight;
+				animation-name: fadeInRight;
+			}
+			.thumb1{
+				width: 3em;
+				height: 3em;
+				margin: 0px 0px;
+			}
+			.nav-msg .arrow.left {
+				top: 25px;
+			}
+			.arrow.left:after {
+				content: " ";
+				left: 1px;
+				border-left-width: 0;
+				border-right-color: #fff;
+				bottom: -7px;
+			}
+			.arrow:after {
+				border-width: 7px;
+				content: "";
+			}
+			.arrow.left {
+				top: 50%;
+				left: -8px;
+				margin-top: -8px;
+				border-left-width: 0;
+				border-right-color: #eee;
+				border-right-color: rgba(0,0,0,0.1);
+			}
+			.arrow, .arrow:after {
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 0;
+				border-color: transparent;
+				border-style: solid;
+			}
+			.arrow {
+				border-width: 8px;
+				z-index: 10;
+			}
+			.sidecontent1{
+				background-color: #545e70;
+				border-bottom:1px solid #000;
+			}
+			.arrow.top {
+				left: 18%;
+				margin-left: -8px;
+				border-top-width: 0;
+				border-bottom-color: #fff;
+				border-bottom-color: rgba(0,0,0,0.1);
+				top: -8px;
+			}
+			.homecontent{
+				background-color: #373d49;
+				color: #a8afbd;
+				height: 50px;
+				padding: 12px;
+				border-bottom: 1px solid rgba(238, 238, 238, 0.15);
+			}
+			.homecontent:hover{
+				background-color:#2c313a;
+			}
+			.galleryimage{
+				width: 19em;
+				height: 11em;
+			}
+			.colgallery{
+				padding-top:10px;
+				padding-bottom:10px;
+			}
+			.colgallery:hover{
+				box-shadow: 0px 0px 16px 5px #ddd;
+			}
+			.contentgalleryimage{
+				line-height: 1.5;
+				font-size: 13px;
+				font-family: inherit;
+				text-align: justify;
+			}
+			.gallerytag{
+				font-family: -webkit-pictograph;
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.services{
+				width:24.7em;
+				height: 17em;
+			}
+			.services1{
+				width:24.7em;
+				height: 17em;
+				background:#000;
+			}
+			.taskhead{
+				border-bottom:4px solid darkcyan;
+				font-family: -webkit-pictograph;
+				cursor:pointer;
+			}
+			.showSingle{
+				cursor:pointer;
+			}
+			.alertinfo{
+				background-color: pink;
+				border-radius: 0px;
+			}
+			.ourmission{
+				background-image:url('../image/banner10.jpg');
+				background-repeat:no-repeat;
+				background-attachment: fixed;
+				background-position: center; 
+				height:260px;
+			}
+			.ourmissioncontent{
+				margin: 40px 0px;
+				padding: 43px 3px 6px 17px;
+				line-height: 1.6;
+				font-size: 18px;
+				font-family: inherit;
+				color: #fff;
+				text-align: justify;
+			}
+			.histroy{
+				background-image:url('../image/histroybanner.jpg');
+				background-repeat:no-repeat;
+				background-attachment: fixed;
+				background-position: center; 
+				height:260px;
+			}
+			.histroycontent{
+				margin: 40px 0px;
+				padding: 43px 3px 6px 17px;
+				line-height: 1.6;
+				font-size: 18px;
+				font-family: inherit;
+				color: #fff;
+				text-align: justify;
+			}
+			.aboutus{
+				text-align:center;
+				font-family: -webkit-pictograph;
+				cursor:pointer;
+			}
+			.aboutuscontent{
+				text-align: justify;
+				line-height: 1.8;
+				font-family: inherit;
+				font-size: 15px;
+				cursor:pointer;
+			}
+			.servicestag{
+				text-align: justify;
+				line-height: 1.7;
+				font-family: inherit;
+				font-size: 15px;
+				cursor:pointer;
+			}
+			.thumb10{
+				width: 8em;
+				height: 8em;
+				margin: 0px 0px;
+			}
+			.testtag{
+				padding: 10px 20px;
+				margin: 0 0 20px;
+				font-size: 17.5px;
+				border-left: 5px solid #F32B0A;
+			}
+			.testtag1{
+				padding: 10px 20px;
+				margin: 0 0 20px;
+				font-size: 17.5px;
+				border-left: 5px solid #0000cc;
+			}
+			.testtag2{
+				padding: 10px 20px;
+				margin: 0 0 20px;
+				font-size: 17.5px;
+				border-left: 5px solid  #ffff00;
+			}
+			.contactTxtForm {
+				margin-top: 2%;
+			}
+			.filter2:hover {
+				border: 2px solid #009c7b;
+				background: #009c7b;
+				border-radius: 50%;
+				font-size: 20px;
+				color: #fff;
+			}
+			.filter2 {
+				border: 2px solid #2FAE93;
+				-webkit-border-top-left-radius: 50px;
+				-webkit-border-top-right-radius: 50px;
+				-webkit-border-bottom-right-radius: 50px;
+				-webkit-border-bottom-left-radius: 50px;
+				-moz-border-radius-topleft: 50px;
+				-moz-border-radius-topright: 50px;
+				-moz-border-radius-bottomright: 50px;
+				-moz-border-radius-bottomleft: 50px;
+				border-top-left-radius: 50px;
+				border-top-right-radius: 50px;
+				border-bottom-right-radius: 50px;
+				border-bottom-left-radius: 50px;
+				font-size: 20px;
+				color: #2FAE93;
+				cursor: pointer;
+			}
+			.tablecontent{
+				font-size:14px;
+			}
